@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylingMyDiary.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/fullcalendar@3.10.2/dist/fullcalendar.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/fullcalendar@3.10.2/dist/fullcalendar.min.js"></script>
+    <title>My Diary</title>
+</head>
+
+<body>
+    <div id="app">
+        <!-- Estructura de la aplicación -->
+        <div id="calendar"></div>
+        <div id="map"></div>
+        <input type="file" accept="image/*" id="photoInput">
+        <textarea id="noteInput" placeholder="Escribe aquí tu nota..."></textarea>
+        <input type="text" id="linkInput" placeholder="Pega aquí un enlace...">
+        <button onclick="guardarEntrada()">Guardar Entrada</button>
+    </div>
+    <script src="wizardMyDiary.js"></script>
+</body>
+
+</html>

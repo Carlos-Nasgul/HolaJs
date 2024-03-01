@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../JSFreeCodeCamp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JSFreeCodeCamp",
+		"liveServer.settings.port": 5501
+	}
+}

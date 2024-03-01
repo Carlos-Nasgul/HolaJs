@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10vw;
+    padding: 0;
+}
+
+#cambiar-color {
+    text-align: center;
+    padding: 50px;
+    cursor: pointer;
+}
+
+/* Estilo adicional para resaltar el cambio de color al pasar el cursor */
+#cambiar-color:hover {
+    transition: background-color 0.5s ease;
+}
